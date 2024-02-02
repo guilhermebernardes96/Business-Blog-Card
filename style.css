@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2F5F9;
+}
+
+.card {
+    width: 400px;
+    height: 530px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.img-card {
+    position: absolute;
+}
+
+.img-business {
+    width: 400px;
+    border-radius: 1em;
+    position: relative;
+}
+
+.overlay {
+    width: 400px;
+    margin-top: 210px;
+}
+
+.card .main {
+    padding: 25px;
+}
+
+.card h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+}
+
+.card .main p {
+    padding-top: 10px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.card hr {
+    border: 1px solid #F2F5F9;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+}
+
+.avatar {
+    width: 40px;
+    border-radius: 50px;
+    border: 5px solid #F2F5F9;
+}
+
+.footer .footer-text {
+    padding-left: 10px;
+}
+
+.footer h4 {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+}
+
+.footer p {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
